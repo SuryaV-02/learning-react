@@ -1,8 +1,8 @@
 import React,{Component} from "react";
 
 // Functioal Component
-function Semester(){
-    return <h1>The winter has begin</h1>
+function Semester(props){
+    return <h1>Your exams starts by {props.month}</h1>
 }
 
 export default Semester

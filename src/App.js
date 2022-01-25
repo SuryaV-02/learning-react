@@ -9,8 +9,8 @@ function App() {
   // ReactDOM.render(<Holidays/>, document.getElementById('root'));
   return (
     <div>
-    <Semester></Semester>
-    <Holidays></Holidays>
+    <Semester month="Feburary"></Semester>
+    <Holidays number="10"></Holidays>
     </div>
   );
 
